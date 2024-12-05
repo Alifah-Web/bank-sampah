@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #20A7AE;
+    padding: 20px;
+    position: relative;
+}
+
+/* Tombol Kembali */
+.back-button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.back-button:hover {
+    transform: scale(1.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h1 {
+    color: #fff;
+    margin: 0;
+    margin-left: 80px;
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-input {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 85px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 28px;
+    margin-left: 390px;
+    margin-bottom: 15px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(80vh - 160px);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Sansita One';
+    font-style: italic;
+    background: #8f9eb8;
+    border-radius: 5px;
+    border-color: #8f9eb8;
+    color: #ffffff;
+    padding: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 500px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #63799f;
+}
+
+/* Tombol Keluar */
+.logout-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+}
+
+.logout-img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logout-img:hover {
+    transform: scale(1.1);
+}

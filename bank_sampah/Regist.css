@@ -1,0 +1,104 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7fafc; /* Latar belakang yang lebih terang */
+}
+
+/* Form Container */
+.form-container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px; /* Lebar maksimal form */
+    border-radius: 15px;
+}
+
+.top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4rem;
+    background-color: #4fd1c5; /* Warna teal */
+    border-radius: 15px 15px 0 0;
+}
+
+/* Perubahan untuk membuat "Buat Akun" lebih jelas dan sedikit lebih ke bawah */
+h2 {
+    font-size: 1.5rem; /* Ukuran font lebih besar */
+    font-weight: 800; /* Menebalkan teks */
+    color: #333; /* Warna teks lebih gelap */
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Menambahkan shadow untuk memperjelas teks */
+    margin-top: 2rem; /* Menambahkan jarak atas agar tulisan sedikit lebih ke bawah */
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 0.25rem; /* Menambahkan jarak antar input */
+}
+
+.input-field:focus {
+    border-color: #4fd1c5; /* Teal border on focus */
+}
+
+/* Button */
+.submit-btn {
+    background-color: #4fd1c5;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #38b2ac; /* Warna teal lebih gelap saat hover */
+}
+
+/* Miscellaneous */
+.text-center {
+    text-align: center;
+}
+
+/* Responsif - Menyesuaikan tampilan di perangkat mobile */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 1.5rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    .submit-btn {
+        padding: 0.75rem 1rem;
+    }
+}
