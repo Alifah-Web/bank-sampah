@@ -1,3 +1,5 @@
 <?php 
-echo ("helo azwan");
+
+echo '<script>window.location.href= "Pencarian.php"</script>';
+
 ?>
